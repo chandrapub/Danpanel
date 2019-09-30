@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carousel Image Slider | Multi Column</title>
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" type="text/css" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+      <br/>
+      
+      <div class="conatiner">
+          <div class="row">
+              <div class="col-xs-12">
+                  <div id="imageCarousel" class="carousel slide" data-interval="2000">
+                      <ol class="carousel-indicators">
+                          <li data-target="#imageCarousel" data-wrap="true" data-slide-to="0" class="active"></li>
+                          <li data-target="#imageCarousel" data-slide-to="1"></li>
+                          <li data-target="#imageCarousel" data-slide-to="2"></li> 
+                      </ol>
+                      <div class="carousel-inner">
+                          <div class="item active">
+                              <div class="row">
+                                  <div class="col-xs-4">
+                              <img src="img/1.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 1</h2>
+                              <p>This is responsive carousel slider one</p>
+                            </div>
+                            </div>
+                            <div class="col-xs-4">
+                              <img src="img/2.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 2</h2>
+                              <p>This is responsive carousel slider two</p>
+                            </div>
+                          </div>
+                        <div class="col-xs-4">
+                              <img src="img/3.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 3</h2>
+                              <p>This is responsive carousel slider three</p>
+                            </div>
+                          </div>
+                      </div>
+                            </div>
+                          <div class="item">
+                              <div class="row">
+                                  <div class="col-xs-4">
+                              <img src="img/4.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 1</h2>
+                              <p>This is responsive carousel slider one</p>
+                            </div>
+                            </div>
+                            <div class="col-xs-4">
+                              <img src="img/5.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 2</h2>
+                              <p>This is responsive carousel slider two</p>
+                            </div>
+                          </div>
+                        <div class="col-xs-4">
+                              <img src="img/6.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 3</h2>
+                              <p>This is responsive carousel slider three</p>
+                            </div>
+                          </div>
+                      </div>
+                            </div>
+                          <div class="item">
+                              <div class="row">
+                                  <div class="col-xs-4">
+                              <img src="img/7.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 1</h2>
+                              <p>This is responsive carousel slider one</p>
+                            </div>
+                            </div>
+                            <div class="col-xs-4">
+                              <img src="img/8.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 2</h2>
+                              <p>This is responsive carousel slider two</p>
+                            </div>
+                          </div>
+                        <div class="col-xs-4">
+                              <img src="img/9.jpg" class="img-responsive" />
+                              <div class="carousel-caption">
+                              <h2> Slide 3</h2>
+                              <p>This is responsive carousel slider three</p>
+                            </div>
+                          </div>
+                      </div>
+                            </div>
+                          </div>
+                          
+                      <a href="#imageCarousel" class="carousel-control left" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a href="#imageCarousel" class="carousel-control right" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+          $(document).ready(function (){
+              $('#imageCarousel').carousel();
+          });
+      </script>
+  </body>
+</html>
