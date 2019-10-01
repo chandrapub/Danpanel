@@ -97,7 +97,7 @@ if($mail->send()){
 // $mail->Host = 'send.one.com';  
 // $mail->SMTPAuth = true;                               
 // $mail->Username = 'cm@danpanel.dk';                
-// $mail->Password = 'dhaka1207';                           
+// $mail->Password = '';                           
 // $mail->SMTPSecure = 'false';                            
 // // $mail->Port = 587;      
 // $mail->Port = 25;
